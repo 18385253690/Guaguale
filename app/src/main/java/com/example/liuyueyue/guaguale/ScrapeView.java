@@ -56,7 +56,7 @@ public class ScrapeView extends View {
 
         path = new Path();
 
-        bpBackground = BitmapFactory.decodeResource(getResources(),R.drawable.test);
+        bpBackground = BitmapFactory.decodeResource(getResources(),R.drawable.love);
         bpForeground = Bitmap.createBitmap(bpBackground.getWidth(),bpBackground.getHeight(),Bitmap.Config.ARGB_8888);
         mCanvas = new Canvas(bpForeground);
 
